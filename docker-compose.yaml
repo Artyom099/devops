@@ -21,3 +21,6 @@ services:
       - "3002:5005"
     environment:
       PORT: 5005
+
+  db-postgres:
+    image: postgres
